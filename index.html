@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylepc.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>JS.kamon</title>
+</head>
+<body class="animate">
+    <section id="Title">
+        <h1>JS.KAMON!</h1>
+    </section>
+    <section id="select-kamon">
+        <h2>Selecciona tu kamon!</h2>
+        <p>
+            <select name="kamon" id="opc-kamon">
+                <option value="1" selected>Pikachu</option>
+                <option value="2">Squirtle</option>
+                <option value="3">Evee</option>
+                <option value="4">Charmander</option>
+                <option value="5">Piplop</option>
+            </select> <button class="seleccion" id="selected_kamon">Seleccionar</button>
+        </p>
+    </section>
+    <section id="screen">
+        <div id="background">
+            <img src="./img/kamons/580b57fcd9996e24bc43c325.png" alt="" id="kamon1">
+            <div id="caja_de_vida">Vida  <span class="texto" id="nombre_kumon1"></span> :<div id="barra_de_vida" class="style_barra"></div></div>
+            <img src="./img/kamons/580b57fcd9996e24bc43c32a.png" alt="" id="kamon2">
+            <div id="caja_de_vida2"> Vida  <span class="texto" id="nombre_kumon2"></span> :<div id="barra_de_vida2" class="style_barra"></div></div>
+        </div>
+    </section>
+    <section id="box-message">
+        <div id="opcs">
+            <select name="atack" id="opc-atack">
+            </select> <button class="seleccion" id="atack_selected">Seleccionar</button>
+        </div>
+        <div id="messages">
+            <p id="message_out">Bienvenido a JS.Kamon, por favor selecciona un Kamon!</p>
+        </div>
+       
+    </section>
+    <section id="volver_a_jugar">
+        <div id="modal">
+            <h1>¿Quies volver a jugar?</h1>
+            <div class="centrar" id="content">
+                <button id="refresh" class="boton">SI</button>
+                <button id="game_over" class="boton">NO</button>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
